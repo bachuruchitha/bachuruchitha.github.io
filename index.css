@@ -1,4 +1,17 @@
-h1{
-color:Blue;
+body{
+    background-color: rgb(54, 48, 48);
 }
-
+.heading{
+    padding-top: 100px;
+    margin-left: 50px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    
+}
+.name{
+    color:rgb(255, 255, 255);
+    font-size: 80px; 
+}
+.role{
+    color:rgb(251, 253, 139);
+    font-size: 40px;
+}
