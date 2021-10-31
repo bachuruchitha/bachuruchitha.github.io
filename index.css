@@ -2,7 +2,7 @@ body{
     background-color: rgb(54, 48, 48);
 }
 .heading{
-    padding-top: 100px;
+    padding: 60px;
     margin-left: 50px;
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     
@@ -14,4 +14,24 @@ body{
 .role{
     color:rgb(251, 253, 139);
     font-size: 40px;
+}
+.items{
+    display: flex;
+    color:aliceblue;
+    align-items: center;
+    background-color:rgb(94, 194, 147);
+    justify-content:space-around;
+    padding: 60px;
+}
+.projects,.skills,.interests{
+    margin:10px 0 ;
+    border: 2px solid rgb(179, 243, 245);
+    padding: 20px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    background-color:rgba(215, 250, 210, 0.4);
+}
+.projects:hover,.skills:hover,.interests:hover{
+    background-color: rgba(215, 250, 210, 0.7);
 }
